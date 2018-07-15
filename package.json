@@ -1,0 +1,17 @@
+{
+  "name": "triagebot-example",
+  "version": "1.0.0",
+  "description": "A triage bot example for Slack",
+  "author": "John Agan <jagan@slack-corp.com>",
+  "main": "triage.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node --presets es2015 index.js"
+  },
+  "dependencies": {
+    "axios": "^0.15.2",
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "i18n": "^0.8.3"
+  }
+}
